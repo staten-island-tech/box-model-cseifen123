@@ -2,42 +2,58 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
+
+    div {
+        background-image: linear-gradient(to right bottom, 
+        rgba(209, 219, 219, 0.4), 
+        rgba(209, 219, 219, 0.4), 
+        ), url(earth.webp);
+        height:200vh ; 
+        background-size: cover; 
+        outline: 10px solid rgb(41, 80, 95);
+        
+
+
+        
+    }
+
  header{
      text-transform: uppercase;
-     color: black;
+     color:white;
      font-weight: bold;
      font-family: 'Bebas Neue', cursive;
      text-align: center;
-     font-size: 5.0em;
+     font-size: 8.0em;
+     letter-spacing: .5em;
 
+}
+
+h1{
+    border: 10px solid rgb(41, 80, 95);
+    padding: 5px; 
+    margin-left: 375px;
+    width: 500px;
+    text-align: center;
+    color:black;
+}
+
+
+
+ .font {
+     font-weight: bolder;
+     font-size: 1em;
+     font-family: cursive;
+     line-height: 2;
  }
- header{ 
-    width: 500px; 
-    padding: 10px; 
-    margin-left: 600px; 
+
+
+ .background {
+    background-color:rgb(41, 80, 95);
+    opacity: 0.5;
+    filter: Alpha(opacity=50);
  }
-    
+ 
+ 
 
  
- div {
-     background-image: linear-gradient(to right bottom, 
-     rgba(149, 167, 167, 0.4), 
-     rgba(149, 167, 167, 0.4) 
-     ), url(earth.webp);
-     height:200vh ;  
-     background-size: cover;
- }
-
- h1{
-    position: absolute;
-    font-size: 2.0em;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    color: goldenrod;
-
- }
