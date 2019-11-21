@@ -4,6 +4,63 @@ html{
     font-size: 62.5%;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
+=======
+
+div{
+    background-image: linear-gradient(to right bottom,
+    rgba(170, 165, 162, 0.4),
+    rgba(170, 165, 162, 0.4)
+    ),  url(mountain.webp);
+     height:100vh ;  
+     background-size: cover;
+     z-index: 1;
+     
+}
+
+h1{
+    font-size: 5.0rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3rem;
+    text-align: center; 
+    font-family: 'Pacifico', cursive;
+
+}
+
+.border{
+    position: absolute;
+    border: 10px solid white;
+    padding: 5px; 
+    margin-left: 400px;
+    margin-top: 150px;
+    width: 500px;
+  }
+
+  h2{
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 300px;
+    font-size: 4.0rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    z-index: 2;
+    text-decoration: underline overline;
+  }
+
+  #color{
+      color: white;
+  }
+ 
+
+
+/* html{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+>>>>>>> e7f545d1d45078a2596c45f43b1f5ab031b1cfef
 div{
     background-image: linear-gradient(to right bottom,
     rgba(170, 165, 162, 0.4),
@@ -26,6 +83,42 @@ h1{
 }
 
 
+<<<<<<< HEAD
+=======
+ /* header{
+     text-transform: uppercase;
+     color:white;
+     font-weight: bold;
+     font-family: 'Bebas Neue', cursive;
+     text-align: center;
+     font-size: 1rem; */
+     
+
+ }
+ /* /* header{ 
+    width: 500rem; 
+    padding: 10rem; 
+    margin-left: 700rem; 
+    margin-left: 700rem;
+    margin-top: 800rem;
+ }
+     */
+
+ 
+ /* body{
+     .background {
+  background-color:rgb(41, 80, 95);
+  opacity: 0.5;
+  filter: Alpha(opacity=50);
+}
+ }
+
+ .background {
+    background-color: black;
+    opacity: 0.5;
+    filter: Alpha(opacity=50);
+  }
+>>>>>>> e7f545d1d45078a2596c45f43b1f5ab031b1cfef
 
 .border{
     position: absolute;
@@ -36,6 +129,7 @@ h1{
     width: 50rem;
   }
 
+<<<<<<< HEAD
 
 
   h2{
@@ -58,3 +152,6 @@ h1{
  
 
  
+=======
+ } */ */ */
+>>>>>>> e7f545d1d45078a2596c45f43b1f5ab031b1cfef
